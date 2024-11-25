@@ -1,0 +1,72 @@
+@model IEnumerable<Wishlist>
+
+@{
+    ViewData["Title"] = "Wishlist";
+}
+
+<div>
+    <section class="breadcrumb-area" data-background="img/bg/page-title.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-text text-center">
+                        <h1>Wishlist</h1>
+                        <ul class="breadcrumb-menu">
+                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                            <li><span>Wishlist</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart-area pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#">
+                        <div class="table-content table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="product-thumbnail">Images</th>
+                                        <th class="cart-product-name">Product</th>
+                                        <th class="product-price">Unit Price</th>
+                                        <th class="product-quantity">Add to cart</th>
+                                        <th class="product-remove">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var wishlist in Model)
+                                    {
+                                        var product = wishlist.Product;
+                                        <tr>
+                                            <td class="product-thumbnail">
+                                                <a href="#"><img src="@product.Photos.FirstOrDefault()?.FilePath"
+                                                        alt=""></a>
+                                            </td>
+                                            <td class="product-name"><a href="#">@product.Name</a></td>
+                                            <td class="product-price"><span
+                                                    class="amount">@product.Price.ToString("C")</span></td>
+                                            <td class="product-quantity">
+                                                <button class="btn theme-btn-2">
+                                                    <a asp-action="Add" asp-controller="Cart" asp-route-productId="@product.Id">Add TO Cart</a>
+                                                </button>
+                                            </td>
+                                            <td class="product-remove">
+                                                <a asp-controller="Wishlist" asp-action="Delete"
+                                                    asp-route-productId="@wishlist.ProductId" title="Delete"><i
+                                                        class="fa fa-times"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

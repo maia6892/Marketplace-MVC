@@ -1,0 +1,49 @@
+@model StoreViewModel
+
+@{
+    ViewData["Title"] = "Add Store";
+}
+
+<div>
+    <section class="breadcrumb-area" data-background="/img/bg/page-title.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-text text-center">
+                        <h1>Add Store</h1>
+                        <ul class="breadcrumb-menu">
+                            <li><a asp-controller="Home" asp-action="Index">home</a></li>
+                            <li><span>Add Store</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="login-area pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="basic-login">
+                        <h3 class="text-center mb-60">Add Store Here</h3>
+                        <form asp-action="AddStore" method="post" enctype="multipart/form-data">
+                            @* <input type="hidden" asp-for="StoreId" /> *@
+                            <label asp-for="Name">Store Name <span>**</span></label>
+                            <input asp-for="Name" type="text" placeholder="Enter Store Name..." class="form-control" />
+
+                            <label asp-for="Description">Description<span>**</span></label>
+                            <input asp-for="Description" type="text" placeholder="Enter store description..."
+                                class="form-control" />
+
+                            <label asp-for="Logo">Upload Logo<span>**</span></label>
+                            <input asp-for="Logo" type="file" class="form-control" />
+
+                            <button class="btn theme-btn-2 w-100 mt-3" type="submit">Add Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

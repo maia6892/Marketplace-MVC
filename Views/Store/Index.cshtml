@@ -1,0 +1,94 @@
+@model IEnumerable<Store>
+@{
+    ViewData["Title"] = "My Stores";
+}
+<style>
+    #logo-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 30px;
+    }
+</style>
+<div>
+    <section class="breadcrumb-area" data-background="img/bg/page-title.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-text text-center">
+                        <h1>My stores</h1>
+                        <ul class="breadcrumb-menu">
+                            <li><a asp-action="Index" asp-controller="Home">home</a></li>
+                            <li><span>My Stores</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-area pt-100 pb-100">
+        <div class="container">
+            <div class="row mb-60">
+                <div style="margin-bottom: 60px;">
+                    <div class="shop-tab f-right">
+                        <ul class="nav text-center">
+                            <li class="nav-item" style="display: inline-flex;">
+                                <h3 style="margin: auto 20px;">Add Store</h3>
+                                <a class="nav-link active" asp-controller="Store" asp-action="AddStore" role="tab"><i
+                                        class="fas fa-plus"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div >
+                    <!-- Grid view start -->
+                    <div  role="tabpanel" aria-labelledby="profile-tab">
+                        @if (Model != null && Model.Any())
+                        {
+                            @foreach (var store in Model)
+                            {
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div class="product-wrapper mb-30">
+                                            <div class="product-img">
+                                                <a href="product-details.html">
+                                                    <img src="@store.LogoFilePath" id="logo-img"  alt="Store Image">
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7">
+                                        <div class="product-content pro-list-content pr-0 mb-50">
+                                            <h4><a asp-controller="Store" asp-action="StoreDetails"
+                                                    asp-route-storeId="@store.Id">@store.Name</a></h4>
+                                            <div class="product-meta mb-10">
+                                                <p>@store.Description</p>
+                                            </div>
+                                            <div class="product-action">
+                                                
+                                                <a asp-controller="Store" asp-action="EditStore" asp-route-storeId="@store.Id" title="Edit">
+                                                    <i class="flaticon-eye"></i>
+                                                </a>
+                                                <a asp-controller="Store" asp-action="DeleteStore" asp-route-storeId="@store.Id" title="Delete"><i class="flaticon-substract"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p>No products found.</p>
+                        }
+                    </div>
+                    <!-- Grid view end -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

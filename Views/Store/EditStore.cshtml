@@ -1,0 +1,52 @@
+@model StoreViewModel
+
+@{
+    ViewData["Title"] = "Edit store";
+}
+<style>
+    #logo-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-left: 30px;
+    }
+</style>
+
+<form asp-action="EditStore" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <input type="hidden" asp-for="StoreId" />
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Current Logo</label>
+        @if (!string.IsNullOrEmpty(Model.LogoFilePath))
+        {
+            <img src="@Model.LogoFilePath" id="logo-img" alt="Store Logo" style="max-width: 150px;" />
+        }
+        else
+        {
+            <p>Logo not uploaded</p>
+        }
+    </div>
+
+    <input type="hidden" asp-for="LogoFilePath" />
+
+    <div class="form-group">
+        <label asp-for="Logo">New Logo</label>
+        <input asp-for="Logo" type="file" class="form-control" />
+        <span asp-validation-for="Logo" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

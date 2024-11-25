@@ -1,0 +1,232 @@
+@model StoreDetailsViewModel
+@{
+    ViewData["Title"] = "StoreDetails";
+}
+
+<div>
+    <!-- Breadcrumb area start -->
+    <section class="breadcrumb-area" data-background="/img/bg/page-title.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-text text-center">
+                        <h1>@Model.StoreName</h1>
+                        <ul class="breadcrumb-menu">
+                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                            <li><span>Store</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb area end -->
+
+    <!-- Shop area start -->
+    <section class="shop-area pt-100 pb-100">
+        <div class="container">
+            <div class="row mb-60">
+                <div style="margin-bottom: 60px;">
+                    <div class="shop-tab f-right">
+                        <ul class="nav text-center">
+                            <li class="nav-item" style="display: inline-flex;">
+                                <h3 style="margin: auto 20px;">Add Product</h3>
+                                <a class="nav-link active" asp-controller="Product" asp-action="AddProduct"
+                                    asp-route-storeId="@Model.StoreId" role="tab"><i class="fas fa-plus"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12">
+                <div class="row mb-10">
+                    <div class="col-xl-7 col-lg-6 col-md-6">
+                        <div class="shop-tab f-right">
+                            <ul class="nav text-center" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                                        aria-selected="true"><i class="fas fa-list-ul"></i> </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                                        aria-selected="false"><i class="fas fa-th-large"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tab content start -->
+                <div class="tab-content" id="myTabContent" style="margin-top: 100px;">
+                    <!-- List view start -->
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            @if (Model.Products != null && Model.Products.Any())
+                            {
+                                @foreach (var product in Model.Products)
+                                {
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="product-wrapper mb-50">
+                                            <div class="product-img mb-25">
+                                                @if (@product.Photos != null && @product.Photos.Any())
+                                                {
+                                                    <a asp-action="ViewProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id">
+                                                        <img src="@product.Photos.First().FilePath" alt="Product Image" />
+                                                        @if (@product.Photos.Count() > 1)
+                                                        {
+                                                            <img class="secondary-img" src="@product.Photos.Skip(1).First().FilePath" alt="Product Image">
+                                                        }
+                                                    </a>
+                                                }
+                                                
+                                                <div class="product-action text-center">
+                                                    <a asp-action="EditProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" title="Edit">
+                                                        <i class="flaticon-layers"></i>
+                                                    </a>
+                                                    <a asp-action="ViewProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" title="Quick View">
+                                                        <i class="flaticon-eye"></i>
+                                                    </a>
+                                                    <a asp-action="DeleteProduct" asp-controller="Product" method="post" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" aria-label="Delete @product.Id" data-toggle="tooltip" data-placement="right" title="Delete">
+                                                        <i class="flaticon-substract"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="pro-cat mb-10">
+                                                    <a href="shop.html">@string.Join(", ", product.Categories.Select(c => c.Name))</a>
+                                                </div>
+                                                <h4>
+                                                    <a href="product-details.html">@product.Name</a>
+                                                </h4>
+                                                <p>@product.Description</p>
+                                                <div class="product-meta">
+                                                    <div class="pro-price">
+                                                        <span>@product.Price.ToString("C")</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                
+                            }
+                            else
+                            {
+                                <p>No products found.</p>
+                            }
+                        </div>
+                    </div>
+                    <!-- List view end -->
+
+                    <!-- Grid view start -->
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        @if (Model.Products != null && Model.Products.Any())
+                        {
+                            @foreach (var product in Model.Products)
+                            {
+                                <div class="row">
+                                    <div class="col-xl-5">
+                                        <div class="product-wrapper mb-30">
+                                            <div class="product-img">
+                                                @if (@product.Photos != null && @product.Photos.Any())
+                                                {
+                                                    <a href="product-details.html">
+                                                        <img src="@product.Photos.First().FilePath" alt="Product Image" />
+                                                        @if (@product.Photos.Count() > 1)
+                                                        {
+                                                            <img class="secondary-img" src="@product.Photos.Skip(1).First().FilePath" alt="Product Image">
+                                                        }
+                                                    </a>
+                                                }
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7">
+                                        <div class="product-content pro-list-content pr-0 mb-50">
+                                            <div class="pro-cat mb-10">
+                                                <a href="shop.html">@string.Join(", ", product.Categories.Select(c => c.Name))</a>
+                                            </div>
+                                            <h4>
+                                                <a asp-action="ViewProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id">@product.Name</a>
+                                            </h4>
+                                            <div class="product-meta mb-10">
+                                                <div class="pro-price">
+                                                    <span>@product.Price.ToString("C")</span>
+                                                </div>
+                                            </div>
+                                            <p>@product.Description</p>
+                                            <div class="product-action">
+                                                <a asp-action="EditProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" title="Edit">
+                                                    <i class="flaticon-layers"></i>
+                                                </a>
+                                                <a asp-action="ViewProduct" asp-controller="Product" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" title="Quick View">
+                                                    <i class="flaticon-eye"></i>
+                                                </a>
+                                                <a asp-action="DeleteProduct" asp-controller="Product" method="post" asp-route-storeId="@Model.StoreId" asp-route-productId="@product.Id" aria-label="Delete @product.Id" data-toggle="tooltip" data-placement="right" title="Delete">
+                                                    <i class="flaticon-substract"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            
+                        }
+                        else
+                        {
+                            <p>No products found.</p>
+                        }
+                        
+                    </div>
+                    <!-- Grid view end -->
+                </div>
+                <div class="basic-pagination basic-pagination-2 text-center mt-20">
+                @if (Model.TotalPages > 1)
+                {
+                    <ul>
+                        @if (Model.CurrentPage > 1)
+                        {
+                            <li>
+                                <a asp-action="StoreDetails" asp-route-storeId="@Model.StoreId" asp-route-page="1">
+                                    <i class="fas fa-angle-double-left"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-action="StoreDetails" asp-route-storeId="@Model.StoreId" asp-route-page="@(Model.CurrentPage - 1)">
+                                    <i class="fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                        }
+
+                        <!-- Pagination -->
+                        @for (int i = 1; i <= Model.TotalPages; i++)
+                        {
+                            <li class="@(i == Model.CurrentPage ? "active" : "")">
+                                <a asp-action="StoreDetails" asp-route-storeId="@Model.StoreId" asp-route-page="@i">@i.ToString("D2")</a>
+                            </li>
+                        }
+
+                        @if (Model.CurrentPage < Model.TotalPages)
+                        {
+                            <li>
+                                <a asp-action="StoreDetails" asp-route-storeId="@Model.StoreId" asp-route-page="@(Model.CurrentPage + 1)">
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-action="StoreDetails" asp-route-storeId="@Model.StoreId" asp-route-page="@Model.TotalPages">
+                                    <i class="fas fa-angle-double-right"></i>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+            
+            <!-- Tab content end -->
+            
+        </div>
+    </section>
+    <!-- Shop area end -->
+</div>

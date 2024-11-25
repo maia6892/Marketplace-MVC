@@ -1,0 +1,195 @@
+@model IEnumerable<ProductViewModel>
+
+@{
+    ViewData["Title"] = "SearchView";
+    var storeNames = Model.Select(p => p.StoreName).Distinct();
+    var categories = Model.SelectMany(p => p.Categories).Select(c => c.Name).Distinct();
+}
+
+<section class="shop-area pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4">
+                <div class="sidebar-box mb-30">
+                    <div class="shop-widget">
+                        <h3 class="shop-title">Search by</h3>
+                        <form id="keyword-search-form" class="shop-search">
+                            <input type="text" name="keyword" id="keyword-input" placeholder="Your keyword....">
+                            <button type="button" id="keyword-search-button"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+
+
+                    <form id="filter-form">
+                        <!-- Store Filter -->
+                        <div class="shop-widget">
+                            <h3 class="shop-title">Store</h3>
+                            <ul class="shop-link">
+                                @foreach (var store in storeNames)
+                                {
+                                    <li>
+                                        <input type="checkbox" name="storeNames" value="@store" id="store-@store" />
+                                        <label for="store-@store">@store</label>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+
+                        <!-- Price Filter -->
+                        <div class="shop-widget">
+                            <h3 class="shop-title">Price Filter</h3>
+                            <input type="number" name="minPrice" class="form-control" placeholder="Min Price" />
+                            <input type="number" name="maxPrice" class="form-control mt-2" placeholder="Max Price" />
+                        </div>
+
+                        <!-- Categories Filter -->
+                        <div class="shop-widget">
+                            <h3 class="shop-title">Categories</h3>
+                            <ul class="shop-link">
+                                @foreach (var category in categories)
+                                {
+                                    
+                                    <li>
+                                        <input type="checkbox" name="categoryNames" value="@category" id="category-@category" />
+                                        <label for="category-@category">@category</label>
+                                    </li>
+                                } 
+
+                                
+                            </ul>
+                        </div>
+
+                        <!-- Apply Filters -->
+                        <button type="button" id="apply-filters" class="btn btn-primary mt-3">Apply Filters</button>
+                        <button type="button" id="clear-filters" class="btn btn-secondary mt-3">Clear Filters</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        
+                        <div class="row">
+                            @foreach (var product in Model)
+                            {
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="product-wrapper mb-50">
+                                        <div class="product-img mb-25">
+                                            @if (@product.ExistingPhotos != null && @product.ExistingPhotos.Any())
+                                            {
+                                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                                        asp-route-productId="@product.Id">
+                                                    <img src="@product.ExistingPhotos.First().FilePath" alt="Product Image" />
+                                                    @if (@product.ExistingPhotos.Count() > 1)
+                                                    {
+                                                        <img class="secondary-img" src="@product.ExistingPhotos.Skip(1).First().FilePath" alt="Product Image">
+                                                    }
+                                                </a>
+                                            }
+                                            <div class="product-action text-center">
+                                                <a asp-action="Add" asp-controller="Cart" asp-route-storeId="@product.StoreId"
+                                                        asp-route-productId="@product.Id" title="Add to cart">
+                                                    <i class="flaticon-shopping-cart"></i>
+                                                </a>
+                                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                                        asp-route-productId="@product.Id" title="Quick View">
+                                                    <i class="flaticon-eye"></i>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="pro-cat mb-10">
+                                                <a href="shop.html">@string.Join(", ", product.Categories.Select(c => c.Name))</a>
+                                            </div>
+                                            <h4>
+                                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                                    asp-route-productId="@product.Id">@product.Name</a>
+                                            </h4>
+                                            <div>
+                                                <div>Stock Quantity: @product.StockQuantity</div>
+                                            </div>
+                                            <div class="product-meta">
+                                                <div class="pro-price">
+                                                    <span>@product.Price.ToString("C")</span>
+                                                </div>
+                                            </div>
+                                            <div class="product-wishlist">
+                                                <a asp-controller="Wishlist" asp-action="Add" asp-route-storeId="@product.StoreId"
+                                                    asp-route-productId="@product.Id"><i class="far fa-heart" title="Wishlist"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                
+            </div>       
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('apply-filters').addEventListener('click', function () {
+        const form = document.getElementById('filter-form');
+        const formData = new FormData(form);
+        const queryString = new URLSearchParams(formData).toString();
+
+        fetch('/Search/Filter?' + queryString, {
+            method: 'GET',
+        })
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('home').innerHTML = html;
+        })
+        .catch(error => console.error('Error:', error));
+    });
+
+    document.getElementById('clear-filters').addEventListener('click', function () {
+        const form = document.getElementById('filter-form');
+        const keyword = document.getElementById('keyword-input');
+        form.reset();
+        keyword.value = '';
+
+        fetch('/Search/Filter', {
+            method: 'GET',
+        })
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('home').innerHTML = html;
+        })
+        .catch(error => console.error('Error:', error));
+    });
+
+    document.getElementById('keyword-search-button').addEventListener('click', function () {
+        const keyword = document.getElementById('keyword-input').value.trim();
+
+        if (!keyword) {
+            alert("Please enter a keyword to search.");
+            return;
+        }
+
+        const queryString = new URLSearchParams({ keyword }).toString();
+
+        fetch('/Search/Search?' + queryString, {
+            method: 'GET',
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.text();
+        })
+        .then(html => {
+            document.getElementById('home').innerHTML = html;
+        })
+        .catch(error => {
+            console.error('Error fetching search results:', error);
+            alert("An error occurred while fetching search results. Please try again.");
+        });
+    });
+
+    
+</script>

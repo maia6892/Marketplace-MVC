@@ -1,0 +1,1157 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/obj/Debug/net8.0/scopedcss/projectbundle/Market.bundle.scp.css",
+      "PackagePath": "staticwebassets/Market.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/assets/img/bg/bg-map.html",
+      "PackagePath": "staticwebassets/assets/img/bg/bg-map.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/animate.min.css",
+      "PackagePath": "staticwebassets/css/animate.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/default.css",
+      "PackagePath": "staticwebassets/css/default.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/flaticon.css",
+      "PackagePath": "staticwebassets/css/flaticon.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/fontawesome-all.min.css",
+      "PackagePath": "staticwebassets/css/fontawesome-all.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/images/ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets/css/images/ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/jquery-ui.css",
+      "PackagePath": "staticwebassets/css/jquery-ui.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/magnific-popup.css",
+      "PackagePath": "staticwebassets/css/magnific-popup.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/meanmenu.css",
+      "PackagePath": "staticwebassets/css/meanmenu.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/css/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/owl.video.play.html",
+      "PackagePath": "staticwebassets/css/owl.video.play.html"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/responsive.css",
+      "PackagePath": "staticwebassets/css/responsive.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/slick.css",
+      "PackagePath": "staticwebassets/css/slick.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticon.eot",
+      "PackagePath": "staticwebassets/fonts/Flaticon.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticon.svg",
+      "PackagePath": "staticwebassets/fonts/Flaticon.svg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticon.ttf",
+      "PackagePath": "staticwebassets/fonts/Flaticon.ttf"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticon.woff",
+      "PackagePath": "staticwebassets/fonts/Flaticon.woff"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticon.woff2",
+      "PackagePath": "staticwebassets/fonts/Flaticon.woff2"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/Flaticond41d.eot",
+      "PackagePath": "staticwebassets/fonts/Flaticond41d.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/fonts/fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets/fonts/fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/add.jpg",
+      "PackagePath": "staticwebassets/img/banner/add.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-1/banner1.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-1/banner1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-1/banner2.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-1/banner2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-1/banner3.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-1/banner3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-2/banner1.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-2/banner1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-2/banner2.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-2/banner2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-2/banner3.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-2/banner3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-2/banner4.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-2/banner4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-5/banner1.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-5/banner1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-5/banner2.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-5/banner2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-5/banner3.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-5/banner3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-5/banner4.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-5/banner4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/banner-5/banner5.jpg",
+      "PackagePath": "staticwebassets/img/banner/banner-5/banner5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/pro-details.jpg",
+      "PackagePath": "staticwebassets/img/banner/pro-details.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/shop-banner.jpg",
+      "PackagePath": "staticwebassets/img/banner/shop-banner.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/top-seller/banner1.jpg",
+      "PackagePath": "staticwebassets/img/banner/top-seller/banner1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/banner/top-seller/banner2.jpg",
+      "PackagePath": "staticwebassets/img/banner/top-seller/banner2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/banner.jpg",
+      "PackagePath": "staticwebassets/img/bg/banner.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/bg.jpg",
+      "PackagePath": "staticwebassets/img/bg/bg.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/bg2.jpg",
+      "PackagePath": "staticwebassets/img/bg/bg2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/footer.jpg",
+      "PackagePath": "staticwebassets/img/bg/footer.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/header-sep.png",
+      "PackagePath": "staticwebassets/img/bg/header-sep.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/mission.jpg",
+      "PackagePath": "staticwebassets/img/bg/mission.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/page-title.png",
+      "PackagePath": "staticwebassets/img/bg/page-title.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/servie-pattern.png",
+      "PackagePath": "staticwebassets/img/bg/servie-pattern.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/shop-banner-2.jpg",
+      "PackagePath": "staticwebassets/img/bg/shop-banner-2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/shop-banner.jpg",
+      "PackagePath": "staticwebassets/img/bg/shop-banner.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/bg/video.jpg",
+      "PackagePath": "staticwebassets/img/bg/video.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b1.jpg",
+      "PackagePath": "staticwebassets/img/blog/b1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b10.jpg",
+      "PackagePath": "staticwebassets/img/blog/b10.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b11.jpg",
+      "PackagePath": "staticwebassets/img/blog/b11.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b2.jpg",
+      "PackagePath": "staticwebassets/img/blog/b2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b3.jpg",
+      "PackagePath": "staticwebassets/img/blog/b3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b4.jpg",
+      "PackagePath": "staticwebassets/img/blog/b4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b5.jpg",
+      "PackagePath": "staticwebassets/img/blog/b5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b6.jpg",
+      "PackagePath": "staticwebassets/img/blog/b6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b7.jpg",
+      "PackagePath": "staticwebassets/img/blog/b7.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b8.jpg",
+      "PackagePath": "staticwebassets/img/blog/b8.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/b9.jpg",
+      "PackagePath": "staticwebassets/img/blog/b9.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/author.png",
+      "PackagePath": "staticwebassets/img/blog/details/author.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/banner.jpg",
+      "PackagePath": "staticwebassets/img/blog/details/banner.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/comments1.png",
+      "PackagePath": "staticwebassets/img/blog/details/comments1.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/comments2.png",
+      "PackagePath": "staticwebassets/img/blog/details/comments2.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/img1.jpg",
+      "PackagePath": "staticwebassets/img/blog/details/img1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/img2.jpg",
+      "PackagePath": "staticwebassets/img/blog/details/img2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/img3.jpg",
+      "PackagePath": "staticwebassets/img/blog/details/img3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/details/me.png",
+      "PackagePath": "staticwebassets/img/blog/details/me.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb1.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb10.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb10.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb11.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb11.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb12.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb12.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb13.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb13.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb2.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb3.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb4.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb5.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb6.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb8.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb8.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/latest/lb9.jpg",
+      "PackagePath": "staticwebassets/img/blog/latest/lb9.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/ms1.jpg",
+      "PackagePath": "staticwebassets/img/blog/ms1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/ms2.jpg",
+      "PackagePath": "staticwebassets/img/blog/ms2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/ms3.jpg",
+      "PackagePath": "staticwebassets/img/blog/ms3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/blog/ms4.jpg",
+      "PackagePath": "staticwebassets/img/blog/ms4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/favicon.png",
+      "PackagePath": "staticwebassets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/icon/filter.png",
+      "PackagePath": "staticwebassets/img/icon/filter.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/icon/look.png",
+      "PackagePath": "staticwebassets/img/icon/look.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/icon/subscribe.png",
+      "PackagePath": "staticwebassets/img/icon/subscribe.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/icon/time.png",
+      "PackagePath": "staticwebassets/img/icon/time.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta1.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta2.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta3.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta4.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta5.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/instagram/insta6.jpg",
+      "PackagePath": "staticwebassets/img/instagram/insta6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/logo/footer-logo.png",
+      "PackagePath": "staticwebassets/img/logo/footer-logo.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/logo/logo-white.png",
+      "PackagePath": "staticwebassets/img/logo/logo-white.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/logo/logo.png",
+      "PackagePath": "staticwebassets/img/logo/logo.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/comments/01.png",
+      "PackagePath": "staticwebassets/img/product/comments/01.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/comments/02.png",
+      "PackagePath": "staticwebassets/img/product/comments/02.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/latest/shop-rsp1.jpg",
+      "PackagePath": "staticwebassets/img/product/latest/shop-rsp1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/latest/shop-rsp2.jpg",
+      "PackagePath": "staticwebassets/img/product/latest/shop-rsp2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/latest/shop-rsp3.jpg",
+      "PackagePath": "staticwebassets/img/product/latest/shop-rsp3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/latest/shop-rsp4.jpg",
+      "PackagePath": "staticwebassets/img/product/latest/shop-rsp4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro1.jpg",
+      "PackagePath": "staticwebassets/img/product/pro1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro10.jpg",
+      "PackagePath": "staticwebassets/img/product/pro10.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro11.jpg",
+      "PackagePath": "staticwebassets/img/product/pro11.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro12.jpg",
+      "PackagePath": "staticwebassets/img/product/pro12.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro13.jpg",
+      "PackagePath": "staticwebassets/img/product/pro13.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro14.jpg",
+      "PackagePath": "staticwebassets/img/product/pro14.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro15.jpg",
+      "PackagePath": "staticwebassets/img/product/pro15.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro16.jpg",
+      "PackagePath": "staticwebassets/img/product/pro16.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro17.jpg",
+      "PackagePath": "staticwebassets/img/product/pro17.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro18.jpg",
+      "PackagePath": "staticwebassets/img/product/pro18.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro19.jpg",
+      "PackagePath": "staticwebassets/img/product/pro19.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro2.jpg",
+      "PackagePath": "staticwebassets/img/product/pro2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro20.jpg",
+      "PackagePath": "staticwebassets/img/product/pro20.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro21.jpg",
+      "PackagePath": "staticwebassets/img/product/pro21.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro22.jpg",
+      "PackagePath": "staticwebassets/img/product/pro22.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro23.jpg",
+      "PackagePath": "staticwebassets/img/product/pro23.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro24.jpg",
+      "PackagePath": "staticwebassets/img/product/pro24.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro25.jpg",
+      "PackagePath": "staticwebassets/img/product/pro25.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro26.jpg",
+      "PackagePath": "staticwebassets/img/product/pro26.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro27.jpg",
+      "PackagePath": "staticwebassets/img/product/pro27.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro28.jpg",
+      "PackagePath": "staticwebassets/img/product/pro28.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro29.jpg",
+      "PackagePath": "staticwebassets/img/product/pro29.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro3.jpg",
+      "PackagePath": "staticwebassets/img/product/pro3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro30.jpg",
+      "PackagePath": "staticwebassets/img/product/pro30.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro31.jpg",
+      "PackagePath": "staticwebassets/img/product/pro31.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro32.jpg",
+      "PackagePath": "staticwebassets/img/product/pro32.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro33.jpg",
+      "PackagePath": "staticwebassets/img/product/pro33.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro34.jpg",
+      "PackagePath": "staticwebassets/img/product/pro34.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro4.jpg",
+      "PackagePath": "staticwebassets/img/product/pro4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro5.jpg",
+      "PackagePath": "staticwebassets/img/product/pro5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro6.jpg",
+      "PackagePath": "staticwebassets/img/product/pro6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro7.jpg",
+      "PackagePath": "staticwebassets/img/product/pro7.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro8.jpg",
+      "PackagePath": "staticwebassets/img/product/pro8.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/product/pro9.jpg",
+      "PackagePath": "staticwebassets/img/product/pro9.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape-icon-2.png",
+      "PackagePath": "staticwebassets/img/slider/shape-icon-2.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape-icon.png",
+      "PackagePath": "staticwebassets/img/slider/shape-icon.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape1.png",
+      "PackagePath": "staticwebassets/img/slider/shape1.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape2.png",
+      "PackagePath": "staticwebassets/img/slider/shape2.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape3.png",
+      "PackagePath": "staticwebassets/img/slider/shape3.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/shape4.png",
+      "PackagePath": "staticwebassets/img/slider/shape4.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide-thumb-2.png",
+      "PackagePath": "staticwebassets/img/slider/slide-thumb-2.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide-thumb-3.png",
+      "PackagePath": "staticwebassets/img/slider/slide-thumb-3.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide-thumb.png",
+      "PackagePath": "staticwebassets/img/slider/slide-thumb.png"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide1-1.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide1-1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide1.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide2-1.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide2-1.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide2-2.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide2-2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide2-3.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide2-3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide3-2.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide3-2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide3-3.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide3-3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide3.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide5-2.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide5-2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide5-3.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide5-3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide5.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide6-2.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide6-2.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide6-3.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide6-3.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/slider/slide6.jpg",
+      "PackagePath": "staticwebassets/img/slider/slide6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/team/team4.jpg",
+      "PackagePath": "staticwebassets/img/team/team4.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/team/team5.jpg",
+      "PackagePath": "staticwebassets/img/team/team5.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/img/team/team6.jpg",
+      "PackagePath": "staticwebassets/img/team/team6.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/ajax-form.js",
+      "PackagePath": "staticwebassets/js/ajax-form.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/js/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/instafeed.min.js",
+      "PackagePath": "staticwebassets/js/instafeed.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets/js/isotope.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/jquery-ui.js",
+      "PackagePath": "staticwebassets/js/jquery-ui.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/jquery.final-countdown.min.js",
+      "PackagePath": "staticwebassets/js/jquery.final-countdown.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets/js/jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets/js/jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets/js/jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/one-page-nav-min.js",
+      "PackagePath": "staticwebassets/js/one-page-nav-min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/plugins.js",
+      "PackagePath": "staticwebassets/js/plugins.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/popper.min.js",
+      "PackagePath": "staticwebassets/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/slick.min.js",
+      "PackagePath": "staticwebassets/js/slick.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/vendor/jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets/js/vendor/jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/js/wow.min.js",
+      "PackagePath": "staticwebassets/js/wow.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/11ee26b7-c593-4eb3-ad82-bf9ca4c5de1e.jpg",
+      "PackagePath": "staticwebassets/product_photos/11ee26b7-c593-4eb3-ad82-bf9ca4c5de1e.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/16d71466-1bb4-42c2-8778-96f26a597091.jpg",
+      "PackagePath": "staticwebassets/product_photos/16d71466-1bb4-42c2-8778-96f26a597091.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/4ec2d331-88ae-44d6-934c-065988471850.jpg",
+      "PackagePath": "staticwebassets/product_photos/4ec2d331-88ae-44d6-934c-065988471850.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/62afa6ac-a77e-4a44-9489-e521f6c9b9d0.jpg",
+      "PackagePath": "staticwebassets/product_photos/62afa6ac-a77e-4a44-9489-e521f6c9b9d0.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/82eadbb9-0bab-4717-a13e-b97048015127.jpg",
+      "PackagePath": "staticwebassets/product_photos/82eadbb9-0bab-4717-a13e-b97048015127.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/8c2603b6-5544-44d9-b94f-22c04080ee39.jpg",
+      "PackagePath": "staticwebassets/product_photos/8c2603b6-5544-44d9-b94f-22c04080ee39.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/8f00d45c-edaf-47ff-a536-a2088bfd7093.jpg",
+      "PackagePath": "staticwebassets/product_photos/8f00d45c-edaf-47ff-a536-a2088bfd7093.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/9679ac36-e4e3-4377-8ca6-099bd8a25e9e.jpg",
+      "PackagePath": "staticwebassets/product_photos/9679ac36-e4e3-4377-8ca6-099bd8a25e9e.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/9960d81d-34e1-4182-b091-e850ce4b2e73.jpg",
+      "PackagePath": "staticwebassets/product_photos/9960d81d-34e1-4182-b091-e850ce4b2e73.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/b447143f-f9bc-49b6-b1b1-b1af4f732faa.jpg",
+      "PackagePath": "staticwebassets/product_photos/b447143f-f9bc-49b6-b1b1-b1af4f732faa.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/bfedadb8-77ea-47b8-8620-535766899d3c.jpg",
+      "PackagePath": "staticwebassets/product_photos/bfedadb8-77ea-47b8-8620-535766899d3c.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/c26850f4-e153-482f-94fe-f5a63dfb04cc.jpg",
+      "PackagePath": "staticwebassets/product_photos/c26850f4-e153-482f-94fe-f5a63dfb04cc.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/e469d76a-1efe-44ad-b4fa-5e72f9d3f375.jpg",
+      "PackagePath": "staticwebassets/product_photos/e469d76a-1efe-44ad-b4fa-5e72f9d3f375.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/ef8eb822-29a2-4c07-800f-347208259b92.jpg",
+      "PackagePath": "staticwebassets/product_photos/ef8eb822-29a2-4c07-800f-347208259b92.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/product_photos/f8a91926-598f-4af5-8737-1116897bd3cf.jpg",
+      "PackagePath": "staticwebassets/product_photos/f8a91926-598f-4af5-8737-1116897bd3cf.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/uploads/56ee632c-4b5f-4539-98a4-e84de448ae54.jpg",
+      "PackagePath": "staticwebassets/uploads/56ee632c-4b5f-4539-98a4-e84de448ae54.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/uploads/605c1d90-6dd3-4e1c-945b-ca2d2c0e0a67.jpg",
+      "PackagePath": "staticwebassets/uploads/605c1d90-6dd3-4e1c-945b-ca2d2c0e0a67.jpg"
+    },
+    {
+      "Id": "/Users/maia/Projects/Final Project/Market/Market/wwwroot/uploads/e122229c-e6d0-4491-b160-65bfbd0fe3be.jpg",
+      "PackagePath": "staticwebassets/uploads/e122229c-e6d0-4491-b160-65bfbd0fe3be.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Market.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Market.props",
+      "PackagePath": "build\\Market.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Market.props",
+      "PackagePath": "buildMultiTargeting\\Market.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Market.props",
+      "PackagePath": "buildTransitive\\Market.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

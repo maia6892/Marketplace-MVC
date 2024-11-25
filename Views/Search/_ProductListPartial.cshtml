@@ -1,0 +1,61 @@
+@model IEnumerable<ProductViewModel>
+
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-6 col-md-6">
+                    <div class="product-wrapper mb-50">
+                        <div class="product-img mb-25">
+                            @if (@product.ExistingPhotos != null && @product.ExistingPhotos.Any())
+                            {
+                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                        asp-route-productId="@product.Id">
+                                    <img src="@product.ExistingPhotos.First().FilePath" alt="Product Image" />
+                                    @if (@product.ExistingPhotos.Count() > 1)
+                                    {
+                                        <img class="secondary-img" src="@product.ExistingPhotos.Skip(1).First().FilePath" alt="Product Image">
+                                    }
+                                </a>
+                            }
+                            <div class="product-action text-center">
+                                <a asp-action="Add" asp-controller="Cart" asp-route-storeId="@product.StoreId"
+                                        asp-route-productId="@product.Id" title="Add to cart">
+                                    <i class="flaticon-shopping-cart"></i>
+                                </a>
+                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                        asp-route-productId="@product.Id" title="Quick View">
+                                    <i class="flaticon-eye"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="pro-cat mb-10">
+                                <a href="shop.html">@string.Join(", ", product.Categories.Select(c => c.Name))</a>
+                            </div>
+                            <h4>
+                                <a asp-action="ProductDetails" asp-controller="Product" asp-route-storeId="@product.StoreId"
+                                    asp-route-productId="@product.Id">@product.Name</a>
+                            </h4>
+                            <div>
+                                <div>Stock Quantity: @product.StockQuantity</div>
+                            </div>
+                            <div class="product-meta">
+                                <div class="pro-price">
+                                    <span>@product.Price.ToString("C")</span>
+                                </div>
+                            </div>
+                            <div class="product-wishlist">
+                                <a asp-controller="Wishlist" asp-action="Add" asp-route-storeId="@product.StoreId"
+                                    asp-route-productId="@product.Id"><i class="far fa-heart" title="Wishlist"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

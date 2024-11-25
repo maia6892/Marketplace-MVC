@@ -1,0 +1,66 @@
+@model ProductViewModel
+@{
+    ViewData["Title"] = "Add Product";
+}
+<div>
+    <!-- breadcrumb-area-start -->
+    <section class="breadcrumb-area" data-background="/img/bg/page-title.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumb-text text-center">
+                        <h1>Add Product</h1>
+                        <ul class="breadcrumb-menu">
+                            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li><span>Add Product</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb-area-end -->
+
+    <!-- Add Product Area Start -->
+    <section class="login-area pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="basic-login">
+                        <h3 class="text-center mb-60">Add Product Here</h3>
+                        <form asp-action="AddProduct" method="post" enctype="multipart/form-data">
+
+                            <input type="hidden" asp-for="StoreId" />
+
+                            <label asp-for="Name">Product Name <span>**</span></label>
+                            <input asp-for="Name" id="name" type="text" placeholder="Enter Product Name..." />
+
+                            <label asp-for="Description">Description <span>**</span></label>
+                            <textarea asp-for="Description" id="description"
+                                placeholder="Enter description..."></textarea>
+
+                            <label asp-for="Price">Price <span>**</span></label>
+                            <input asp-for="Price" id="price" type="number" step="0.01" placeholder="Enter price..." />
+
+                            <label asp-for="StockQuantity">Stock Quantity <span>**</span></label>
+                            <input asp-for="StockQuantity" id="stock" type="number"
+                                placeholder="Enter stock quantity..." />
+
+                            <div class="form-group">
+                                <label for="SelectedCategoryIds">Select Categories</label>
+                                <select asp-for="SelectedCategoryIds" asp-items="Model.AvailableCategories"
+                                    multiple="multiple" class="form-control">
+                                </select>
+                            </div>
+
+                            <label asp-for="Photos">Upload Photos</label>
+                            <input asp-for="Photos" id="pass" type="file" multiple name="Photos" />
+                            <button class="btn theme-btn-2 w-100" type="submit">Add Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Add Product Area End -->
+</div>

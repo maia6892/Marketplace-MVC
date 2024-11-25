@@ -1,0 +1,70 @@
+@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h2>Edit Product</h2>
+
+<form asp-action="EditProduct" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="StoreId" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StockQuantity"></label>
+        <input asp-for="StockQuantity" class="form-control" />
+        <span asp-validation-for="StockQuantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Categories</label>
+        <select asp-for="SelectedCategoryIds" asp-items="Model.AvailableCategories" class="form-control"
+            multiple></select>
+        <span asp-validation-for="SelectedCategoryIds" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+
+        @foreach (var photo in Model.ExistingPhotos)
+        {
+            <div class="form-check">
+                <img src="@photo.FilePath" alt="Product photo" style="width: 100px; height: 100px; margin: 5px;" />
+                @* <input type="checkbox" name="photoIds" value="@photo.Id" class="form-check-input" /> *@
+            </div>
+        }
+        <div class="form-group">
+            <a asp-action="EditProductPhoto" asp-route-productId="@Model.Id" target="_blank" class="btn btn-secondary">
+                Manage Photos
+            </a>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label>Upload New Photos</label>
+        <input asp-for="Photos" type="file" multiple class="form-control-file" />
+        <span asp-validation-for="Photos" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="ViewProduct" asp-route-productId="@Model.Id" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,59 @@
+@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "All Orders";
+}
+
+<style>
+    .order-details {
+        margin-bottom: 30px;
+        border: 3px solid #fe4536;
+        border-radius: 20px;
+        padding: 20px;
+    }
+</style>
+
+<div>
+    @if (Model != null && Model.Any())
+    {
+        @foreach (var order in Model.OrderByDescending(o => o.OrderDate))
+        {
+            <div class="order-details">
+                <h1>Order № @order.Id</h1>
+                <p><strong>Order ID:</strong> @order.Id</p>
+                <p><strong>Order Date:</strong> @order.OrderDate</p>
+                <p><strong>Status:</strong> @order.Status</p>
+                <p><strong>Total Amount:</strong> @order.TotalAmount.ToString("C")</p>
+
+                <h2>Items</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-action="ProductDetails" asp-controller="Product" asp-route-productId="@item.ProductId">@item.Product.Name</a>
+                                    
+                                </td>
+                                <td>@item.Quantity</td>
+                                <td>@item.UnitPrice.ToString("C")</td>
+                                <td>@((item.Quantity * item.UnitPrice).ToString("C"))</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No orders found.</p>
+    }
+</div>

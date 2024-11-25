@@ -1,0 +1,353 @@
+﻿@{
+    ViewData["Title"] = "Market";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] M - Market</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Market.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/meanmenu.css">
+    <link rel="stylesheet" href="~/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/css/meanmenu.css">
+    <link rel="stylesheet" href="~/css/slick.css">
+    <link rel="stylesheet" href="~/css/default.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <style>
+        #submenu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #fff;
+            width: 250px;
+            transition: 0.3s;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9;
+            text-align: left;
+            box-shadow: 0px 12px 24px 0px rgba(254, 69, 54, 0.3);
+            padding: 16px 20px;
+        }
+
+        #submenu li a {
+            padding: 16px 20px;
+            color: rgb(16, 17, 30);
+            font-size: 12px;
+            display: block;
+        }
+
+        #submenu li {
+            margin: 0;
+            display: block;
+            border-bottom: 1px solid #b0c6c64d;
+        }
+
+        #submenu li:last-child {
+            border: 0;
+        }
+
+        li:hover>#submenu {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-area header-3 pt-35 pb-35">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div
+                        class="col-xl-4 col-lg-3 col-md-3 col-7 d-none d-lg-block d-flex align-items-center d-xs-disable">
+                        <div class="basic-bar info-bar">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 col-md-4 col-5">
+                        <div class="logo text-left text-lg-center">
+                            <a asp-controller="Home" asp-action="Index"><img src="/img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-8 col-7 pl-0">
+                        <div class="header-right header-right-3 f-right">
+                            <ul>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li class="search-btn">
+                                        <a asp-action="SearchView" asp-controller="Search">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </li>
+                                    <li class="login-btn">
+                                        <a asp-controller="Account" asp-action="Login">
+                                            <i class="far fa-user"></i>
+                                        </a>
+                                        <ul id="submenu">
+                                            <li><a>My profile</a></li>
+                                            @if (User.IsInRole("Seller"))
+                                            {
+                                                <li><a asp-controller="Store" asp-action="Index">My store</a></li>
+                                            }
+                                            @if (User.IsInRole("Admin"))
+                                            {
+                                                <li><a asp-controller="Admin" asp-action="CheckoutSummary">View Checkout
+                                                        Summary</a></li>
+                                            }
+                                            <li><a asp-controller="Cart" asp-action="AllOrders">My Orders</a></li>
+                                            <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                    @if (User.IsInRole("Buyer"))
+                                    {
+                                        <li><a asp-controller="Wishlist" asp-action="Index"><i class="far fa-heart"></i></a>
+                                        </li>
+                                        <li class="d-shop-cart"><a asp-controller="Cart" asp-action="Index"
+                                                asp-route-storeId="@ViewBag.StoreId" asp-route-productId="@ViewBag.ProductId"><i
+                                                    class="flaticon-shopping-cart"></i> <span
+                                                    class="cart-count">@ViewBag.ItemCount</span></a>
+                                        </li>
+                                    }
+                                }
+                                else
+                                {
+                                    <li class="search-btn">
+                                        <a asp-action="SearchView" asp-controller="Search">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </li>
+                                    <li><a asp-controller="Account" asp-action="Login"><i class="far fa-user"></i></a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 d-xl-none">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- side menu -->
+        <div class="extra-info">
+            <div class="close-icon">
+                <button>
+                    <i class="far fa-window-close"></i>
+                </button>
+            </div>
+            <div class="logo-side">
+                <a href="index.html">
+                    <img src="img/logo/logo-white.png" alt="" />
+                </a>
+            </div>
+            <div class="side-info mb-30">
+                <div class="main-menu side-menu">
+                    <nav id="mobile-menu-3">
+                        <ul>
+                            <li>
+                                <a asp-action="Index" asp-controller="Home">Home <i
+                                        class="flaticon-right-arrow"></i></a>
+
+                            </li>
+                            <li class="mega-menu">
+                                <a href="shop.html">Shop <i class="flaticon-right-arrow"></i></a>
+                                <ul class="submenu ">
+                                    <li>
+                                        <a href="#">Categories</a>
+                                        <ul class="submenu">
+                                            @if (ViewBag.AllCategories != null)
+                                            {
+                                                @foreach (var category in ViewBag.AllCategories)
+                                                {
+                                                    <li>
+                                                        <a asp-action="SearchView" asp-route-selectedCategory="@category.Name">@category.Name</a>
+                                                    </li>
+                                                }
+                                            }
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a asp-action="SearchView" asp-controller="Search">Products <i
+                                        class="flaticon-right-arrow"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="#">Pages <i class="flaticon-right-arrow"></i></a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a asp-action="About" asp-controller="Home">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Login" asp-controller="Account">login</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Register" asp-controller="Account">Register</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Index" asp-controller="Cart">Shoping Cart</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Index" asp-controller="Wishlist">Wishlist</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="side-info-bottom">
+                <div class="side-cta">
+                </div>
+                <div class="social-icon-right mt-20">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+
+    </div>
+
+
+    <footer class="footer-area pl-100 pr-100 mt-100">
+        <div class="container">
+            <div class="footer-area pt-100 pb-60 pl-50 pr-50" data-background="/img/bg/footer.jpg">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-6">
+                        <div class="footer-widget mb-40 pr-70">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/logo/footer-logo.png" alt=""></a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore mag na
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                            </p>
+                            <div class="footer-time d-flex mt-30">
+                                <div class="time-icon">
+                                    <img src="img/icon/time.png" alt="">
+                                </div>
+                                <div class="time-text">
+                                    <span>Got Questions ? Call us 24/7!</span>
+                                    <h2>(0600) 874 548</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3">
+                        <div class="footer-widget mb-40">
+                            <h3>Social Media</h3>
+                            <ul class="footer-link">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Behance</a></li>
+                                <li><a href="#"> Dribbble</a></li>
+                                <li><a href="#">Linkedin</a></li>
+                                <li><a href="#">Youtube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="footer-widget pl-50 mb-40">
+                            <h3>Location</h3>
+                            <ul class="footer-link">
+                                <li><a href="#">New York</a></li>
+                                <li><a href="#">Tokyo</a></li>
+                                <li><a href="#">Dhaka</a></li>
+                                <li><a href="#"> Chittagong</a></li>
+                                <li><a href="#">China</a></li>
+                                <li><a href="#">Japan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-3 d-md-none d-xl-block">
+                        <div class="footer-widget mb-40">
+                            <h3>About</h3>
+                            <ul class="footer-link">
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#"> Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Wholesale</a></li>
+                                <li><a href="#">Direction</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area box-105">
+            <div class="container-fluid">
+                <div class="pt-30 pb-30">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="copyright text-center">
+                                <p>Copyright © 2024.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/isotope.pkgd.min.js"></script>
+    <script src="~/js/one-page-nav-min.js"></script>
+    <script src="~/js/slick.min.js"></script>
+    <script src="~/js/jquery.meanmenu.min.js"></script>
+    <script src="~/js/ajax-form.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script src="~/js/jquery.scrollUp.min.js"></script>
+    <script src="~/js/jquery.final-countdown.min.js"></script>
+    <script src="~/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/main.js"></script>
+</body>
+
+</html>
